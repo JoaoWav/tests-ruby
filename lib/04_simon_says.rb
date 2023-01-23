@@ -11,7 +11,7 @@ def repeat(word, num = 2) #num = 2 permet de multiplier
 end
 
 def start_of_word(word, num)
-    word.slice(0..num-1) # slice = permet de découper le mot # -1 pcq ça commence à 0 s
+    word.slice(0..num-1) # slice = permet de découper le mot # -1 pcq ça commence à 0
 end
 
 def first_word(text)
